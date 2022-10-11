@@ -3,7 +3,7 @@ import os
 
 
 def driver_check():
-    driver_install_path = f'{os.getcwd()}\\lib\\chromedriver'
+    driver_install_path = f'{os.getcwd()}\\libs\\chromedriver'
     chrome_ver = chromedriver_autoinstaller.get_chrome_version().split('.')[0]
     driver_path = f'{driver_install_path}\\{chrome_ver}\\chromedriver.exe'
 
